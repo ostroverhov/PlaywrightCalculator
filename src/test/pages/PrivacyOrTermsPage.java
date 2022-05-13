@@ -18,5 +18,4 @@ public class PrivacyOrTermsPage extends BasePage {
         logger.info("Get page message");
         return pageLabel.textContent();
     }
-
 }

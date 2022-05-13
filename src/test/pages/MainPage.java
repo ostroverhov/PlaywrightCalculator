@@ -11,8 +11,6 @@ public class MainPage extends BasePage {
     private static final Logger logger = Logger.getInstance();
     private final Locator calculateButton = page.locator("[type='submit']");
     private final Locator enterIntegerAlert = page.locator("//*[@id='resultDiv']");
-//    private final Locator privacyButton = page.locator("a[href='/privacy']");
-//    private final Locator termsButton = page.locator("a[href='/terms']");
     private final Locator numberInput = page.locator("input");
     private final Locator resultLabel = page.locator("//*[@id='resultDiv' and contains(text(), 'The factorial')]");
 
